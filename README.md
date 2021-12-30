@@ -1,4 +1,5 @@
 
+特别注意：本库起始于AgentWeb 4.1.9 androidx版本，并且不打算支持support版本,后续主要保证持续跟进AgentWeb和X5的稳定版更新，未来sample亦会有所不同
 
 ## AgentWebX5 介绍
 
@@ -48,7 +49,7 @@
 
 1. 直接通过Gradle依赖腾讯X5内核最新 [SDK](https://x5.tencent.com/tbs/), 亦可下载后SDK本地依赖。
 2. 引入 `AgentWebX5`
-3. 需要全局初始化X5内核 `QbSdk.initX5Environment(getApplicationContext(),  cb);`
+3. 需要全局初始化X5内核 `QbSdk.initTbsSettings(map)`
 
 ## 注意事项
 1. AgentWebX5 内部并没有直接依赖X5库 ，需要用户到[腾讯X5官网](https://x5.tencent.com/tbs/)下载 ， 并在项目中依赖该库 。
@@ -57,6 +58,7 @@
 4. 注意权限 。
 5. 注意腾讯X5库官方升级并替换成最新的库。
 6. [onJsAlert 阻塞 ](https://github.com/Justson/AgentWebX5/issues/21)
+
 
 ## 问答
 

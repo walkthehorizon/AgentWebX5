@@ -6,6 +6,10 @@ import android.content.Intent;
 import com.just.agentwebX5.sample.service.WebService;
 import com.queue.library.GlobalQueue;
 import com.squareup.leakcanary.LeakCanary;
+import com.tencent.smtt.export.external.*;
+import com.tencent.smtt.sdk.*;
+
+import java.util.*;
 
 /**
  * Created by cenxiaozhong on 2017/5/23.
@@ -45,5 +49,10 @@ public class App extends Application {
                 }
             }
         });
+
+        HashMap<String,Object> map = new HashMap<>();
+        map.put(TbsCoreSettings.TBS_SETTINGS_USE_SPEEDY_CLASSLOADER, true);
+        map.put(TbsCoreSettings.TBS_SETTINGS_USE_DEXLOADER_SERVICE, true);
+        QbSdk.initTbsSettings(map);
     }
 }
