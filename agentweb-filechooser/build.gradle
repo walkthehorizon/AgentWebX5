@@ -37,7 +37,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.just'
+                groupId = 'com.github.Justson'
                 artifactId = 'agentwebX5-filechooser'
                 version = '4.1.9'
             }
