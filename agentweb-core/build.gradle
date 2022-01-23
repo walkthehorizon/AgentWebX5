@@ -48,9 +48,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.Justson'
+                groupId = 'com.github.walkthehorizon'
                 artifactId = 'agentwebX5-core'
-                version = '4.1.9'
+                version = 'v4.1.9'
             }
         }
     }

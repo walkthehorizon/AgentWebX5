@@ -36,7 +36,7 @@
   项目build.gradle下添加
 
    ```
-   implementation 'com.github.Justson:agentwebX5-core:4.1.9'
+   implementation 'com.github.walkthehorizon:AgentWebX5:v4.1.9'
    ```
 
 ## Android WebView
