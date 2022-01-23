@@ -6,7 +6,7 @@
 基于腾讯X5内核版的 [AgentWeb](https://github.com/Justson/AgentWeb) ，简单易用 ， 带有进度条 、 支持文件上传 、 下载 、 简化 Javascript 通信 、 链式调用  、性能更优 。更多使用请参照上面的 sample 。
 
 <div style="display: flex;flex-direction: row;justify-content: center" width="100%">
-    <img src="./img/agentweb架构.jpeg"/>
+    <img src="./img/arch.webp"/>
 </div>
 
 ## AgentWebX5 功能
@@ -26,20 +26,9 @@
 ## 引入
 
 * Gradle
-
    ```
-   compile 'com.just.agentwebX5:agentwebX5:2.0.0'
+   compile 'com.github.Justson:agentwebX5-core:4.1.9'
    ```
-* Maven
-
-	```
-	<dependency>
- 	  <groupId>com.just.agentwebX5</groupId>
- 	  <artifactId>agentwebX5</artifactId>
-	  <version>2.0.0</version>
-	  <type>pom</type>
-	</dependency>
-	```
 
 ## Android WebView
 如果你更喜欢Android WebView ，请切换到这个仓库
