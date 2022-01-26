@@ -51,7 +51,6 @@ dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     api 'androidx.appcompat:appcompat:1.0.0'
     api 'com.google.android.material:material:1.0.0'
-    //    compile "com.android.support:support-v4:${SUPPORT_LIB_VERSION}"
     implementation 'com.github.Justson:Downloader:v4.1.9'
     api project(':agentweb-core')
     api project(':agentweb-filechooser')
