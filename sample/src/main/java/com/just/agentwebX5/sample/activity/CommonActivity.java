@@ -17,6 +17,7 @@ import com.just.agentwebX5.sample.fragment.CustomIndicatorFragment;
 import com.just.agentwebX5.sample.fragment.CustomSettingsFragment;
 import com.just.agentwebX5.sample.fragment.CustomWebViewFragment;
 import com.just.agentwebX5.sample.fragment.JsAgentWebFragment;
+import com.just.agentwebX5.sample.fragment.JsbridgeWebFragment;
 import com.just.agentwebX5.sample.fragment.SmartRefreshWebFragment;
 import com.just.agentwebX5.sample.fragment.VasSonicFragment;
 
@@ -131,11 +132,11 @@ public class CommonActivity extends AppCompatActivity {
 				mBundle.putString(AgentWebFragment.URL_KEY, "http://m.mogujie.com/?f=mgjlm&ptp=_qd._cps______3069826.152.1.0");
 				break;
 
-//            /*JsBridge 演示*/
-//			case FLAG_GUIDE_DICTIONARY_JSBRIDGE_SAMPLE:
-//				ft.add(R.id.container_framelayout, mAgentWebFragment = JsbridgeWebFragment.getInstance(mBundle = new Bundle()), JsbridgeWebFragment.class.getName());
-//				mBundle.putString(AgentWebFragment.URL_KEY, "file:///android_asset/jsbridge/demo.html");
-//				break;
+            /*JsBridge 演示*/
+			case FLAG_GUIDE_DICTIONARY_JSBRIDGE_SAMPLE:
+				ft.add(R.id.container_framelayout, mAgentWebFragment = JsbridgeWebFragment.getInstance(mBundle = new Bundle()), JsbridgeWebFragment.class.getName());
+				mBundle.putString(AgentWebFragment.URL_KEY, "file:///android_asset/jsbridge/demo.html");
+				break;
 
             /*SmartRefresh 下拉刷新*/
 			case FLAG_GUIDE_DICTIONARY_PULL_DOWN_REFRESH:
