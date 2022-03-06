@@ -5,11 +5,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+
+import com.just.agentwebX5.sample.tkrefreshlayout.TwinklingRefreshLayout;
 import com.tencent.smtt.sdk.WebView;
 
 import com.just.agentwebX5.IWebLayout;
 import com.just.agentwebX5.sample.R;
-import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
 
 /**
  * Created by cenxiaozhong on 2017/7/1.
@@ -34,7 +35,6 @@ public class WebLayout implements IWebLayout {
     public ViewGroup getLayout() {
         return mTwinklingRefreshLayout;
     }
-
     @Nullable
     @Override
     public WebView getWebView() {

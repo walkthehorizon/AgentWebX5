@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+<com.just.agentwebX5.sample.tkrefreshlayout.TwinklingRefreshLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/refreshLayout"
@@ -15,4 +15,4 @@
         android:background="#fff"
         android:visibility="visible"
         android:overScrollMode="never"/>
-</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+</com.just.agentwebX5.sample.tkrefreshlayout.TwinklingRefreshLayout>

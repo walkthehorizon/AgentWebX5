@@ -5,11 +5,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.scwang.smart.refresh.layout.SmartRefreshLayout;
 import com.tencent.smtt.sdk.WebView;
 
 import com.just.agentwebX5.IWebLayout;
 import com.just.agentwebX5.sample.R;
-import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 
 /**
  * Created by cenxiaozhong on 2017/8/14.
