@@ -35,9 +35,7 @@ android {
 dependencies {
     compileOnly fileTree(include: ['*.jar'], dir: 'libs')
     compileOnly 'com.github.Justson:Downloader:v4.1.9'
-//    compileOnly 'com.github.Justson:Downloader:v4.1.4-androidx'
     compileOnly 'com.google.android.material:material:1.0.0'
-    compileOnly 'androidx.legacy:legacy-support-v4:1.0.0'
     compileOnly fileTree(include: ['*.jar'], dir: 'providedLibs')
     compileOnly 'com.tencent.tbs:tbssdk:44115'
 }

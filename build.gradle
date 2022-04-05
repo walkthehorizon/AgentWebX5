@@ -9,7 +9,6 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.3'
-//        classpath 'com.novoda:bintray-release:0.9'
     }
 }
 
@@ -29,6 +28,3 @@ tasks.withType(Javadoc) {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-//tasks.getByPath(":agentweb-core:mavenAndroidJavadocs").enabled = false
-//tasks.getByPath(":agentweb-download:mavenAndroidJavadocs").enabled = false
-//tasks.getByPath(":agentweb-filechooser:mavenAndroidJavadocs").enabled = false
