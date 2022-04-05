@@ -8,7 +8,7 @@ android {
         minSdkVersion 19
         targetSdkVersion TARGET_SDK_VERSION.toInteger()
         versionCode 4
-        versionName "4.1.9"
+        versionName "1.0.0"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     signingConfigs {
@@ -65,9 +65,10 @@ dependencies {
 //    implementation 'com.lcodecorex:tkrefreshlayout:1.0.7'
 //    implementation 'com.github.lzyzsd:jsbridge:1.0.4'
     implementation 'com.google.code.gson:gson:2.3.1'
-    implementation  'io.github.scwang90:refresh-layout-kernel:2.0.5'      //核心必须依赖
-    implementation  'io.github.scwang90:refresh-header-classics:2.0.5'    //经典刷新头
-    implementation  'io.github.scwang90:refresh-footer-classics:2.0.5'    //经典加载
+    implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
+    implementation  'com.scwang.smart:refresh-header-material:2.0.3'    //谷歌刷新头
+    implementation  'com.scwang.smart:refresh-header-classics:2.0.3'    //经典刷新头
+    implementation  'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
     implementation 'com.tencent.sonic:sdk:2.0.0'
     implementation 'com.coolindicator.sdk:coolindicator:1.0.0-beta'
     implementation 'com.squareup.picasso:picasso:2.71828'

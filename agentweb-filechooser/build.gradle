@@ -9,7 +9,7 @@ android {
         minSdkVersion 14
         targetSdkVersion TARGET_SDK_VERSION.toInteger()
         versionCode 2
-        versionName "4.1.9"
+        versionName "1.0.0"
     }
 
     buildTypes {
@@ -27,7 +27,7 @@ android {
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
     compileOnly 'com.google.android.material:material:1.0.0'
-    compileOnly 'androidx.legacy:legacy-support-v4:1.0.0'
+//    compileOnly 'androidx.legacy:legacy-support-v4:1.0.0'
     compileOnly 'com.tencent.tbs:tbssdk:44115'
     api project(':agentweb-core')
 }
@@ -39,7 +39,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.walkthehorizon'
                 artifactId = 'agentwebX5-filechooser'
-                version = 'v4.1.9'
+                version = '1.0.0'
             }
         }
     }

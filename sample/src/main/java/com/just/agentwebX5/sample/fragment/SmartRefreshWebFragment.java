@@ -2,17 +2,19 @@ package com.just.agentwebX5.sample.fragment;
 
 import android.graphics.Color;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
+
+import com.scwang.smart.refresh.layout.SmartRefreshLayout;
+import com.scwang.smart.refresh.layout.api.RefreshLayout;
+import com.scwang.smart.refresh.layout.listener.OnRefreshListener;
 import com.tencent.smtt.sdk.WebView;
 import android.widget.FrameLayout;
 
 import com.just.agentwebX5.IWebLayout;
 import com.just.agentwebX5.sample.widget.SmartRefreshWebLayout;
-import com.scwang.smartrefresh.layout.SmartRefreshLayout;
-import com.scwang.smartrefresh.layout.api.RefreshLayout;
-import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
-
 /**
  * Created by cenxiaozhong on 2017/7/1.
  * source code  https://github.com/Justson/AgentWeb
@@ -47,7 +49,7 @@ public class SmartRefreshWebFragment extends BounceWebFragment {
         final WebView mWebView = this.mSmartRefreshWebLayout.getWebView();
         mSmartRefreshLayout.setOnRefreshListener(new OnRefreshListener() {
             @Override
-            public void onRefresh(RefreshLayout refreshlayout) {
+            public void onRefresh(@NonNull RefreshLayout refreshlayout) {
                 mAgentWeb.getUrlLoader().reload();
 
                 mSmartRefreshLayout.postDelayed(new Runnable() {

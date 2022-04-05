@@ -9,7 +9,7 @@ android {
         minSdkVersion 14
         targetSdkVersion TARGET_SDK_VERSION.toInteger()
         versionCode 2
-        versionName "4.1.9"
+        versionName "1.0.0"
     }
     buildTypes {
         debug{
@@ -48,7 +48,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.walkthehorizon'
                 artifactId = 'agentwebX5-core'
-                version = 'v4.1.9'
+                version = '1.0.0'
             }
         }
     }
